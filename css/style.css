@@ -5,13 +5,9 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
-  background: url(images/white-wood.jpg) top left repeat;
-
-background-attachment: fixed;
-
-background-position: top left;
-
-background-size: auto, cover;
+ 
+ background-image: url('[image url]');
+ 
 }
 
 .container, h1 {
