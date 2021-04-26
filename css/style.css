@@ -5,8 +5,19 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
-  background-image: url(images/white-wood.jpg);
-  background-repeat: repeat;
+  background: url(images/pattern_cross_1.png) top left repeat, url(images/bg_image_watzmann_3.jpg) top left no-repeat;
+
+background-attachment: fixed;
+
+background-position: top left;
+
+-webkit-background-size: auto, cover;
+
+-moz-background-size: auto, cover;
+
+-o-background-size: auto, cover;
+
+background-size: auto, cover;
 }
 
 .container, h1 {
