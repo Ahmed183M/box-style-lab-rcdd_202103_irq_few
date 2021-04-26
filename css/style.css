@@ -34,7 +34,7 @@ h4 {
   background: #44cc66
   
 }
-h4 .amiable{
+h4.amiable{
   background: linear-gradient(45deg, green, #44cc66);
 }
 
